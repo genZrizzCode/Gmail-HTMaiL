@@ -9,6 +9,7 @@
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/genZrizzCode/Gmail-HTMaiL/main/htmail.user.js
 // @downloadURL  https://raw.githubusercontent.com/genZrizzCode/Gmail-HTMaiL/main/htmail.user.js
+// @license      Apache-2.0
 // ==/UserScript==
 
 (function () {
