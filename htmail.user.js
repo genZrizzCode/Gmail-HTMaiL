@@ -7,6 +7,8 @@
 // @author       MaSoVaX
 // @include      *://mail.google.com/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/genZrizzCode/Gmail-HTMaiL/main/htmail.user.js
+// @downloadURL  https://raw.githubusercontent.com/genZrizzCode/Gmail-HTMaiL/main/htmail.user.js
 // ==/UserScript==
 
 (function () {
