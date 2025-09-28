@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name         Gmail HTMLaiL
-// @namespace    https://github.com/
+// @name         Gmail HTMaiL
+// @namespace    https://github.com/genZrizzCode/Gmail-HTMaiL
 // @version      1
 // @description  Insert raw HTML into Gmail compose by simulating paste event!
 // @icon         https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg
 // @author       MaSoVaX
-// @match        https://mail.google.com/*
+// @include      *://mail.google.com/*
 // @grant        none
 // ==/UserScript==
 
 (function () {
     'use strict';
-    console.log("✅ Gmail HTML Compose Helper (Paste Fix) loaded");
+    console.log("✅ Gmail HTML Compose Helper loaded");
 
     let lastEditor = null;
 
