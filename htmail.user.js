@@ -3,7 +3,7 @@
 // @namespace    https://github.com/genZrizzCode/Gmail-HTMaiL
 // @version      1
 // @description  Insert raw HTML into Gmail compose by simulating paste event!
-// @icon         https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg
+// @icon         https://www.google.com/a/cpanel/images/favicon.ico
 // @author       MaSoVaX
 // @include      *://mail.google.com/*
 // @grant        none
