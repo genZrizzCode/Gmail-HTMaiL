@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gmail HTMaiL
 // @namespace    https://github.com/genZrizzCode/Gmail-HTMaiL
-// @version      1
+// @version      2
 // @description  Insert raw HTML into Gmail compose by simulating paste event!
 // @icon         https://www.google.com/a/cpanel/images/favicon.ico
 // @author       MaSoVaX
