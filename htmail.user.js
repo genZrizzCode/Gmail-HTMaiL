@@ -8,7 +8,7 @@
 // @include      *://mail.google.com/*
 // @grant        none
 // @updateURL    https://github.com/genZrizzCode/Gmail-HTMaiL/raw/refs/heads/main/htmail.user.js
-// @downloadURL  https://github.com/genZrizzCode/Gmail-HTMaiL/raw/refs/heads/main/htmail.user.jss
+// @downloadURL  https://github.com/genZrizzCode/Gmail-HTMaiL/raw/refs/heads/main/htmail.user.js
 // @license      Apache-2.0
 // ==/UserScript==
 

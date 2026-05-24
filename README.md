@@ -1,8 +1,8 @@
 # **GMAIL** **HTM**ai**L**
 
-A powerful userscript that adds HTML insertion capabilities to Gmail's compose interface. Insert raw HTML directly into your emails with a simple click!
+A userscript that adds HTML insertion capabilities to Gmail's compose interface. Insert raw HTML directly into your emails with a simple click.
 
-## 🚀 Features
+## Features
 
 - **Easy HTML Insertion**: Add a `</>` button to Gmail's compose toolbar
 - **Raw HTML Support**: Insert any HTML content directly into your emails
@@ -10,8 +10,9 @@ A powerful userscript that adds HTML insertion capabilities to Gmail's compose i
 - **Paste Event Simulation**: Bypasses Gmail's HTML restrictions using clipboard events
 - **Accessibility**: Includes plain text fallback for screen readers
 - **Auto-Detection**: Works with both compose windows and popup compose boxes
+- **Custom Input UI**: Uses an in-page modal (textarea) for entering HTML (not the browser's built-in `prompt()`)
 
-## 📦 Installation
+## Installation
 
 ### Option 1: Tampermonkey/Violentmonkey (Recommended)
 
@@ -19,10 +20,12 @@ A powerful userscript that adds HTML insertion capabilities to Gmail's compose i
    - [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Safari, Edge)
    - [Greasemonkey](https://www.greasespot.net/) (Firefox)
    - [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox, Edge)
+   - Or their beta versions
 
-2. Click the "Raw" button on this file to install the script
-
-3. The script will automatically update when you visit Gmail
+2. Install the userscript:
+   - GitHub: click the "Raw" button on [`htmail.user.js`](https://github.com/genZrizzCode/Gmail-HTMaiL/blob/main/htmail.user.js)
+   - GreasyFork: click "Install" on https://greasyfork.org/en/scripts/550920-gmail-htmail
+3. Updates are provided via the script metadata (`@updateURL` / `@downloadURL`) and are handled by your userscript manager.
 
 ### Option 2: Manual Installation
 
@@ -31,12 +34,12 @@ A powerful userscript that adds HTML insertion capabilities to Gmail's compose i
 3. Create a new script and paste the code
 4. Save the script
 
-## 🎯 How to Use
+## How to Use
 
 1. **Open Gmail** and start composing a new email
 2. **Click the `</>` button** in the compose toolbar (next to formatting options)
-3. **Enter your HTML code** in the prompt dialog
-4. **Click OK** - the HTML will be inserted at your cursor position
+3. **Paste/type your HTML** into the modal dialog textarea
+4. **Click Execute** - the HTML will be inserted at your cursor position
 
 ### Example HTML Code
 
@@ -72,7 +75,7 @@ A powerful userscript that adds HTML insertion capabilities to Gmail's compose i
 </table>
 ```
 
-## 🔧 Technical Details
+## Technical Details
 
 ### How It Works
 
@@ -91,7 +94,7 @@ The script uses a clever technique to bypass Gmail's HTML restrictions:
 - ✅ Edge (with Tampermonkey)
 - ✅ Opera (with Tampermonkey)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -121,7 +124,7 @@ Open your browser's developer console (F12) to see helpful debug messages:
 - `🔧 Inserting HTML` - HTML insertion in progress
 - `✅ HTML insertion completed` - Success!
 
-## 📝 Examples
+## Examples
 
 ### Basic Formatting
 ```html
@@ -145,7 +148,7 @@ Open your browser's developer console (F12) to see helpful debug messages:
 </div>
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Found a bug or have a feature request? We'd love your help!
 
@@ -155,11 +158,13 @@ Found a bug or have a feature request? We'd love your help!
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+Bugs I am currently working to fix: Invisible button on small screens
+
+## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Gmail team for the amazing email platform
 - Tampermonkey/Greasemonkey for userscript support
@@ -167,6 +172,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE.txt](LI
 
 ---
 
-**Made with ❤️ by MaSoVaX**
-
-*Happy HTML composing!* 🎉
+**Made by MaSoVaX**
